@@ -1,0 +1,290 @@
+.welcome-to-scholarbridge {
+  margin: 0;
+  height: 22px;
+  width: 1031px;
+  position: relative;
+  line-height: 22px;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.container-71 {
+  align-self: stretch;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  background-color: #15243e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 14px var(--padding-xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-icon {
+  height: 51px;
+  width: 53px;
+  position: relative;
+  object-fit: cover;
+}
+.radio-btn-icon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.radio-btn-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.5px 0 0;
+}
+.one-of-the {
+  position: relative;
+  line-height: 22px;
+  white-space: pre-wrap;
+}
+.button-42,
+.coming-soon-button {
+  display: flex;
+  align-items: flex-start;
+}
+.button-42 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: #272727;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-4xs-5) var(--padding-xl) var(--padding-4xs-5)
+    var(--padding-2xl);
+  gap: 6px;
+}
+.coming-soon-button {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.image-parent {
+  width: 696px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 63px;
+  max-width: 100%;
+}
+.coming-soon {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  color: inherit;
+}
+.button-43,
+.main-content {
+  display: flex;
+  align-items: flex-start;
+}
+.button-43 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-13xl) var(--padding-7xs) 33px;
+  white-space: nowrap;
+}
+.main-content {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  color: var(--color-gray-100);
+}
+.left-content,
+.university-info {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.left-content {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.university-info {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) 0 27px;
+  box-sizing: border-box;
+}
+.welcome-to,
+.years-we-corporated {
+  margin: 0;
+  position: absolute;
+  left: 23px;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.years-we-corporated {
+  top: 222px;
+  display: inline-block;
+  width: 981px;
+  height: 289px;
+}
+.welcome-to {
+  top: 127px;
+  white-space: pre-wrap;
+}
+.australiaanuuniversity-of-sy,
+.ukucl-manchester-kcledinbu {
+  display: block;
+}
+.ukucl-manchester-kcledinbu-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.connect-with-us {
+  position: relative;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: var(--font-open-sans);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.button-41 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-xl);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button-41:hover {
+  background-color: var(--color-gainsboro);
+}
+.university-list-container {
+  position: absolute;
+  top: 367px;
+  left: 1004px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 13px;
+  font-family: var(--font-open-sans);
+}
+.container-70,
+.container-72 {
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslategray);
+}
+.container-70 {
+  position: absolute;
+  top: 274px;
+  left: 0;
+  width: 118px;
+  height: 120px;
+  z-index: 1;
+}
+.container-72 {
+  align-self: stretch;
+  height: 607px;
+  position: relative;
+  font-size: var(--font-size-24xl);
+  font-family: var(--font-poppins);
+}
+.university-info-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5px;
+  max-width: 100%;
+}
+.conversion-output,
+.conversion-output-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.conversion-output-inner {
+  width: 1440px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+}
+.conversion-output {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xs) 30px 12px 48px;
+  gap: 22px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-base);
+}
+@media screen and (max-width: 1025px) {
+  .left-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .welcome-to,
+  .years-we-corporated {
+    font-size: var(--font-size-15xl);
+    line-height: 48px;
+  }
+  .conversion-output {
+    padding-left: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .coming-soon-button {
+    min-width: 100%;
+  }
+  .image-parent {
+    flex-wrap: wrap;
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .image-parent {
+    gap: var(--gap-base);
+  }
+  .welcome-to,
+  .years-we-corporated {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+}
