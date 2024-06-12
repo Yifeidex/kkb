@@ -1,348 +1,106 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+/* 根元素的字体和颜色定义 */
+:root {
+    --font-size-standard: 16px; /* 标准字体大小 */
+    --line-height-standard: 40px; /* 统一行高 */
+    --font-family-standard: 'Open Sans', sans-serif; /* 统一字体 */
+    --text-color-standard: #666; /* 统一文字颜色 */
+    --padding-standard: 10px 15px; /* 统一内边距 */
+    --color-gray-200: #d2d2d2; /* 轻灰色 */
+    --color-white: #ffffff; /* 白色 */
+    --color-gainsboro: #dcdcdc; /* 淡灰色 */
+    --color-gray-100: #f5f5f5; /* 更浅灰色 */
+    --br-9xs: 8px; /* 边框圆角 */
+}
+
+/* 应用于特定元素的统一样式 */
 .best-service-lower,
-.most-efficient-application {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  line-height: 48px;
-  font-weight: 700;
-  font-family: inherit;
-}
-.most-efficient-application {
-  display: inline-block;
-  max-width: 100%;
-}
-.best-service-lower {
-  align-self: stretch;
-}
-.service-info {
-  width: 1285px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 11.4px;
-  max-width: 100%;
-  text-align: left;
-  font-size: var(--font-size-13xl);
-  color: var(--color-white);
-  font-family: var(--font-poppins);
-}
-.div {
-  position: absolute;
-  top: calc(50% - 11.5px);
-  left: calc(50% - 4.5px);
-  line-height: 23px;
-}
-.button-52 {
-  width: 31px;
-  height: 23px;
-  position: relative;
-  border-radius: 3px;
-  background-color: #1a1a1a;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-}
-.undergraduate-foundation-appli {
-  position: relative;
-  font-size: var(--font-size-3xl);
-  line-height: 31px;
-  font-family: var(--font-open-sans);
-  color: var(--color-gray-100);
-  text-align: left;
-}
-.button-50 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-smi) var(--padding-3xl);
-  background-color: var(--color-white);
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  white-space: nowrap;
-}
-.button-501:hover,
-.button-502:hover,
-.button-50:hover {
-  background-color: var(--color-gainsboro);
-}
-.blank-line,
-.blank-line1,
-.blank-line2,
-.blank-line3,
-.guaranteed-offer-from,
-.one-of-the1,
-.refund-all-if {
-  margin: 0;
-}
-.arranging-examinations-for-container {
-  height: 240px;
-  width: 418px;
-  position: relative;
-  line-height: 30px;
-  display: inline-block;
-  flex-shrink: 0;
-  max-width: 104%;
-}
-.container-76 {
-  height: 260px;
-  width: 425px;
-  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
-  border-radius: var(--br-9xs);
-  background-color: var(--color-gray-200);
-  flex-direction: row;
-  padding: var(--padding-12xl) 0 0 var(--padding-3xl);
-  box-sizing: border-box;
-}
-.button-50-parent,
-.container-76,
-.container-76-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.container-76-wrapper {
-  flex-direction: row;
-  padding: 0 11px 0 var(--padding-3xs);
-  box-sizing: border-box;
-}
-.button-50-parent {
-  flex-direction: column;
-  gap: var(--gap-15xl);
-}
-.undergraduate-foundation-appli {
-  position: relative;
-  font-size: var(--font-size-3xl);  // 如果这里字体太大导致溢出，可以考虑调小
-  line-height: 31px;  // 确保行高与容器高度匹配
-  font-family: var(--font-open-sans);
-  color: var(--color-gray-100);
-  text-align: left;
-  padding: 10px;  // 增加适当的内边距确保文本不触碰到边框
-  max-width: 100%;  // 确保文本容器不会超出其父容器的宽度
-  box-sizing: border-box;  // 包括内边距和边框在内的总宽度和高度
-}
-.button-501 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-smi) 73px var(--padding-smi) 74px;
-  background-color: var(--color-white);
-  align-self: stretch;
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  white-space: nowrap;
-}
-.arranging-examinations-for,
-.blank-line4,
-.blank-line5,
-.produces-an-estimated {
-  display: block;
-}
-.include-cie {
-  white-space: pre-wrap;
-}
-.blank-line6,
-.blank-line7,
-.include-cie {
-  display: block;
-}
-.arranging-examinations-for-container1 {
-  margin: 0 !important;
-  height: 300px;
-  width: 418px;
-  position: absolute;
-  right: -15px;
-  bottom: -71px;
-  line-height: 30px;
-  font-weight: 700;
-  display: inline-block;
-}
-.button-50-group,
-.container-75 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.container-75 {
-  align-self: stretch;
-  height: 260px;
-  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
-  border-radius: var(--br-9xs);
-  background-color: var(--color-gray-200);
-  flex-direction: row;
-  position: relative;
-}
-.button-50-group {
-  flex: 1;
-  flex-direction: column;
-  padding: 0 var(--padding-17xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-15xl);
-  min-width: 300px;
-  max-width: 100%;
-}
+.most-efficient-application,
+.undergraduate-foundation-appli,
+.undergraduate,
 .postgraduates-application {
-  position: relative;
-  font-size: var(--font-size-3xl);
-  line-height: 31px;
-  font-family: var(--font-open-sans);
-  color: var(--color-gray-100);
-  text-align: left;
+    font-size: var(--font-size-standard);
+    line-height: var(--line-height-standard);
+    font-weight: 700; /* 粗体 */
+    color: var(--text-color-standard);
+    font-family: var(--font-family-standard);
+    text-align: left;
+    display: inline-block;
+    width: 100%;
 }
+
+.best-service-lower {
+    align-self: stretch;
+}
+
+.most-efficient-application {
+    max-width: 100%;
+}
+
+/* 容器和按钮样式 */
+.service-info,
+.container-76,
+.container-75 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--color-gray-200);
+    border-radius: var(--br-9xs);
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+}
+
+.button-50,
+.button-501,
 .button-502 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-smi) 59px var(--padding-smi) 60px;
-  background-color: var(--color-white);
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  white-space: nowrap;
-  z-index: 1;
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-standard);
+    background-color: var(--color-white);
+    border-radius: var(--br-9xs);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.blank-line10,
-.blank-line8,
-.blank-line9,
-.full-application-process,
-.multiple-customised-revisions,
-.personal-statement,
-.targeted-voice-communication {
-  margin: 0;
+
+.button-50:hover,
+.button-501:hover,
+.button-502:hover {
+    background-color: var(--color-gainsboro);
 }
-.personal-statementtargeted-voi-container {
-  flex: 1;
-  position: relative;
-  line-height: 25px;
-  display: inline-block;
-  max-width: 100%;
+
+/* 响应式调整 */
+@media screen and (max-width: 768px) {
+    :root {
+        --font-size-standard: 14px; /* 移动设备上减小字体大小 */
+        --line-height-standard: 36px; /* 移动设备上调整行高 */
+    }
+
+    .service-info,
+    .container-76,
+    .container-75 {
+        flex-direction: row;
+        padding: 5px;
+    }
 }
-.container-73 {
-  width: 380px;
-  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
-  border-radius: var(--br-9xs);
-  background-color: var(--color-gray-200);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xl) var(--padding-3xs) var(--padding-xl)
-    var(--padding-3xl);
-  box-sizing: border-box;
-  max-width: 100%;
+
+@media screen and (max-width: 480px) {
+    :root {
+        --font-size-standard: 12px; /* 更小屏幕上进一步减小字体大小 */
+    }
+
+    .button-50,
+    .button-501,
+    .button-502 {
+        padding: 5px; /* 更小屏幕上减少内边距 */
+    }
 }
-.postgraduate {
-  flex-direction: column;
-  gap: 29px;
-  max-width: 100%;
-}
-.conversion-output1,
-.foundation,
-.foundation-wrapper,
-.postgraduate {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.foundation {
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 39px;
-  max-width: 100%;
-}
-.conversion-output1,
-.foundation-wrapper {
-  box-sizing: border-box;
-  text-align: left;
-}
-.foundation-wrapper {
-  width: 1392px;
-  flex-direction: row;
-  padding: 0 var(--padding-4xs);
-  max-width: 100%;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
-  font-family: var(--font-poppins);
-}
-.conversion-output1 {
-  width: 100%;
-  position: relative;
-  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
-  background-color: var(--color-black);
-  overflow: hidden;
-  flex-direction: column;
-  padding: var(--padding-12xl) var(--padding-25xl) 71px;
-  gap: 31.2px;
-  line-height: normal;
-  letter-spacing: normal;
-  font-size: var(--font-size-mini);
-  color: var(--color-silver);
-  font-family: var(--font-open-sans);
-}
-@media screen and (max-width: 1200px) {
-  .conversion-output1 {
-    padding-left: var(--padding-3xl);
-    padding-right: var(--padding-3xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 975px) {
-  .best-service-lower,
-  .most-efficient-application {
-    font-size: var(--font-size-7xl);
-    line-height: 38px;
-  }
-}
-@media screen and (max-width: 725px) {
-  .best-service-lower,
-  .most-efficient-application {
-    font-size: var(--font-size-lgi);
-    line-height: 29px;
-  }
-  .arranging-examinations-for-container {
-    font-size: var(--font-size-base);
-    line-height: 24px;
-  }
-  .button-50-parent {
-    gap: var(--gap-mid);
-  }
-  .button-501 {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .arranging-examinations-for-container1 {
-    font-size: var(--font-size-base);
-    line-height: 24px;
-  }
-  .button-50-group {
-    gap: var(--gap-mid);
-  }
-  .button-502 {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .personal-statementtargeted-voi-container {
-    font-size: var(--font-size-base);
-    line-height: 20px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .foundation {
-    gap: 19px;
-  }
-  .conversion-output1 {
-    gap: var(--gap-base);
-  }
-}
+
