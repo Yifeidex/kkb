@@ -176,8 +176,8 @@
   align-items: flex-start;
   justify-content: center;
   white-space: nowrap;
-  width: 50%; /* 设定宽度为父元素的一半 */
   margin-left: -10px; /* 如果需要继续向左移动 */
+  transform: scale(1.5); /* 将元素放大1.5倍 */
 }
 .university-list-container {
   position: absolute;
