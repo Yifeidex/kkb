@@ -166,7 +166,7 @@
 .button-41 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-6xs) var(--padding-xl);
+  padding: var(--padding-6xs) var(--padding-l);  /* 减小水平内边距 */
   background-color: var(--color-white);
   align-self: stretch;
   border-radius: var(--br-9xs);
@@ -176,6 +176,8 @@
   align-items: flex-start;
   justify-content: center;
   white-space: nowrap;
+  width: 50%; /* 设定宽度为父元素的一半 */
+  margin-left: -10px; /* 如果需要继续向左移动 */
 }
 .university-list-container {
   position: absolute;
