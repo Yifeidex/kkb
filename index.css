@@ -157,8 +157,8 @@
 }
 .connect-with-us {
   position: relative;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 11px;
+  line-height: 15px;
   font-family: var(--font-open-sans);
   color: var(--color-gray-100);
   text-align: left;
@@ -166,7 +166,7 @@
 .button-41 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-8xs) var(--padding-xl);
+  padding: var(--padding-6xs) var(--padding-xl);
   background-color: var(--color-white);
   align-self: stretch;
   border-radius: var(--br-9xs);
@@ -176,9 +176,6 @@
   align-items: flex-start;
   justify-content: center;
   white-space: nowrap;
-}
-.button-41:hover {
-  background-color: var(--color-gainsboro);
 }
 .university-list-container {
   position: absolute;
